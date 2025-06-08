@@ -6,7 +6,7 @@ from PIL import Image
 
 # Load the model
 try:
-    model = tf.keras.models.load_model('models\pneumonia_augmented_model.h5')
+    model = tf.keras.models.load_model('model\pneumonia_augmented_model.h5')
     print("[INFO] Model loaded successfully.")
 except Exception as e:
     print("[ERROR] Failed to load model:", e)
